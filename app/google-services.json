@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454407134386",
+    "project_id": "toolbookerapp",
+    "storage_bucket": "toolbookerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454407134386:android:4b1c756b0da3f23c45fdab",
+        "android_client_info": {
+          "package_name": "com.example.toolbookerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454407134386-a1e4ftlm49tn053g18hsir6ck98n2t87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX0KcmhLKTaChzuu6Jkvc0PKpr_a1cUyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454407134386-a1e4ftlm49tn053g18hsir6ck98n2t87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
