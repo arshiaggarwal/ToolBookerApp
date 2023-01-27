@@ -6,40 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Spinner
-        android:id="@+id/test1"
-        android:layout_width="240dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="10dp"
-        android:spinnerMode="dropdown"
-        app:layout_constraintBottom_toTopOf="@+id/test2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="300dp" />
 
-    <Spinner
-        android:id="@+id/test2"
-        android:layout_width="240dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="10dp"
-        android:translationY="80dp"
-        android:spinnerMode="dropdown"
-        app:layout_constraintBottom_toTopOf="@+id/test3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/test1" />
-
-    <Spinner
-        android:id="@+id/test3"
-        android:layout_width="240dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="485dp"
-        android:translationY="160dp"
-        android:spinnerMode="dropdown"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/test2" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="154dp"
+        android:layout_height="274dp"
+        app:srcCompat="@drawable/drill"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="58dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
