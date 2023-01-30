@@ -24,10 +24,6 @@ public class CheckoutPage extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState){
         super.onViewCreated(view, savedInstanceState);
 
-        binding.button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                NavHostFragment.findNavController
-            }
-        });
+        binding.button.setOnClickListener(view1 -> NavHostFragment.findNavController);
     }
 }
